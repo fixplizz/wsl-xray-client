@@ -1,0 +1,52 @@
+# Environment & Configuration (CRITICAL - NEVER COMMIT!)
+.env
+.env.local
+.env.*.local
+.env.production
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Linux
+.directory
+.Trash-*
+
+# IDE & Editor
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# Backups
+*.bak
+*.backup
+.backup/
+
+# Private keys & credentials
+*.pem
+*.key
+id_rsa
+id_ed25519
+known_hosts
+
+# Build
+build/
+dist/
+*.egg-info/
